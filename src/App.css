@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+    font-family: Mulish;
+}
+
+.container {
+    display: flex;
+    background: #FFFFFF;
+    height: 1766px;
+    width: 1512px;
+    margin : 2px;
+    margin-right: 0px;
+}
+
+
+.posts{
+    width: 1134px;
+    margin: 33px;
+    margin-top: 10px;
+}
+
+.vertical-line{
+    border-left:10px ;
+}
+
+.users{
+    margin: 33px;
+    width: 378px;
+    margin-top: 10px;
+   
+}
+.main-container{
+    display: flex row;
+}
+
+.horizontal-line{
+    border-bottom: 2px solid red;
+    display: flex;
+    margin-top: 70px;
+    border: 1px solid black;
+    border-left: 2px solid black;
+}
+
+.vertical-line{
+        display: inline-block;
+        width: 0.5px; 
+        background-color: black; 
+        height: 1766px; 
+        float: left; 
+        height: 1650px;
+        border: 1px solid;
+        margin-left: 10px;
+        margin-top: 0px;
+      
+}
+
+

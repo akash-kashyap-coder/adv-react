@@ -1,0 +1,47 @@
+.user-card {
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    border-color: black;
+    background-color: blanchedalmond;
+    margin-top: 24px;
+    margin-left: 21px;
+    margin-right: 25px;
+    width: 332px;
+    height: 70px;
+    background: rgba(224, 226, 228, 0.2);
+    border: 1px solid #BBBBBB;
+    border-radius: 10px;
+}
+
+.user-card-name {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.user-card-username {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    color: #000000;
+}
+
+
+.user-card-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 11px;
+}
+
+.user-card-body{
+    flex-direction: row;
+}
