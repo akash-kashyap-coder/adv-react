@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Post from "./Post";
 import "./Posts.css";
-function Posts({ posts, userId }) {
-  const IMAGE_URL = "https://api.lorem.space/image/watch?w=332&h=188&val=";
+function Posts({ posts,userId}) {
+  let    IMAGE_URL = "https://api.lorem.space/image/watch?w=332&h=188&val="+userId;
 
   let count = 0;
   const counter = () => {
     return count++;
   };
+
+
   return (
     <div className="posts-flex">
       
@@ -22,7 +24,7 @@ function Posts({ posts, userId }) {
             <Post
               post={post}
               key={post.id}
-              IMAGE_URL={IMAGE_URL + userId + counter()}
+              IMAGE_URL={IMAGE_URL + counter()}
               className='post-col'
             />
           ))}

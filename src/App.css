@@ -45,13 +45,13 @@ body{
 
 .vertical-line{
         display: inline-block;
-        width: 0.5px; 
+        width: 0.1px; 
         background-color: black; 
         height: 1766px; 
         float: left; 
         height: 1650px;
-        border: 1px solid;
-        margin-left: 10px;
+        border: 1px solid black;
+        margin-left: 10.343px;
         margin-top: 0px;
       
 }

@@ -1,4 +1,4 @@
-.title-container{
+.title-container {
     display: flex;
     width: 86px;
     height: 40px;
@@ -11,26 +11,48 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
+    
     color: #000000;
 }
 
-.posts-title{
-    margin-left:60px ;
-    
+.posts-title {
+    margin-left: 60px;
+    color: #000000;
 }
 
-.users-title{
+.todos-title{
+    margin-left: 133px;
+    width: 92px;
+    height: 40;
+    color: #000000;
+    text-decoration: none;
+}
+
+Link{
+    text-decoration: none;
+}
+
+.users-title {
     margin-left: 37px;
 }
 
-.header-horizontal-line{
+.header-horizontal-line {
     display: inline-block;
-        width: 0.5px; 
-        background-color: black; 
-        height: 1766px; 
-        float: left; 
-        height: 1650px;
-        border: 1px solid;
-        margin-left: 319px;
-        margin-top: 0px;
+    width: 0.5px;
+    background-color: black;
+    height: 1766px;
+    
+    height: 1650px;
+    border: 1px solid black;
+    margin-left: 319px;
+    margin-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
 }
