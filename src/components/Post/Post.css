@@ -5,10 +5,10 @@
     width: 332px;
     height: 352;
     margin-top: 34px;
-    margin-left: 33px;
     border-radius: 10px 10px 0px 0px;
     border-radius: 10px;
-
+    padding: 0px;
+    margin-left: 0px;
 }
 
 .post-card:hover {
@@ -16,8 +16,7 @@
 }
 
 .post-card-container {
-
-    padding: 2px 16px;
+    padding: 16px;
     height: 164px;
 }
 
@@ -35,9 +34,7 @@
 
 }
 
-.post-card-body {
-
-    
+.post-card-body {    
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
@@ -47,16 +44,11 @@
     color: #000000;
     display: flex row;
     flex-wrap: wrap;
-
 }
 
 .post-card-image {
-
     width: 332px;
     height: 188px;
-    left: 411px;
-    top: 122px;
-
     background: #C8E4F4;
     border-radius: 10px 10px 0px 0px;
 }

@@ -1,9 +1,8 @@
 .title-container {
     display: flex;
     width: 86px;
-    height: 40px;
-    left: 37px;
-    top: 24px;
+    height: 88px;
+    margin-top: 24px;
     margin-left: 37px;
     margin-top: 24px;
     font-family: 'Mulish';
@@ -11,48 +10,76 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-    
+  
+    width: 1512px;
     color: #000000;
 }
 
 .posts-title {
-    margin-left: 60px;
+    margin-left: 35px;
     color: #000000;
+  
+    width: 93px;
+    height: 40px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 40px;
+
+    
 }
 
-.todos-title{
-    margin-left: 133px;
-    width: 92px;
-    height: 40;
+.todos-title {
+    margin-left: 35px;
     color: #000000;
-    text-decoration: none;
+   
+    width: 93px;
+    height: 40px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
 }
 
-Link{
+NavLink {
     text-decoration: none;
 }
 
 .users-title {
+    margin-left: 30px;
+    width: 86px;
+    height: 40px;
     margin-left: 37px;
+    margin-top: 24px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 40px;
+    color:#1E1E1E;;
+
 }
 
-.header-horizontal-line {
+.header-vertical-line {
     display: inline-block;
-    width: 0.5px;
     background-color: black;
-    height: 1766px;
-    
+    height: 100%;
+
     height: 1650px;
     border: 1px solid black;
-    margin-left: 319px;
+    margin-left: 270px;
     margin-top: 0px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+h5{
+    color: #000000;
 }
-li{
-    display: inline;
+
+.nav-bar{
+    
+    width: 100%;
+    display: flex;
 }
+

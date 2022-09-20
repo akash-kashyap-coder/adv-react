@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mulish&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 body{
@@ -38,22 +38,11 @@ body{
 .horizontal-line{
     border-bottom: 2px solid red;
     display: flex;
-    margin-top: 70px;
+    margin-top: 88px;
     border: 1px solid black;
     border-left: 2px solid black;
-}
-
-.vertical-line{
-        display: inline-block;
-        width: 0.1px; 
-        background-color: black; 
-        height: 1766px; 
-        float: left; 
-        height: 1650px;
-        border: 1px solid black;
-        margin-left: 10.343px;
-        margin-top: 0px;
-      
+    width: 1512px;
+    height: 0px;
 }
 
 
